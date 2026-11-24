@@ -1,5 +1,11 @@
 # THE TUESDAY SIGNAL — NI24 Wave 1 · Akun 18 (@latuconshinaprilly3480)
 
+[![make.fun bounty](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124)
+![rank](https://make.fun/badge/news-image-20261124/latuconshinaprilly/makefun-news-image-20261124/rank.svg)
+![reward](https://make.fun/badge/news-image-20261124/latuconshinaprilly/makefun-news-image-20261124/reward.svg)
+
+Bounty: [news-image-20261124 on make.fun](https://make.fun/bounty/news-image-20261124)
+
 Bounty: `news-image-20261124` (make.fun) · Akun 18 · Edisi Selasa 24 November 2026
 
 ## Konsep

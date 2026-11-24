@@ -7,6 +7,8 @@ dimensions and REFUSES to ship an image that breaks the 1024x1024
 server gate, copies entry.png byte-for-byte into MAKEFUN_OUTPUT_DIR
 (fallback /output), then verifies the copy is byte-identical.
 Deterministic: the same input bytes always produce the same output.
+Build target for this entry: palette PNG, 190-450 KB (smaller files win
+an exact rate tie, so the compose step quantizes to 256 colours).
 """
 import hashlib
 import os
@@ -66,8 +68,8 @@ def main():
     if sha256_of(ENTRY) != sha256_of(dest):
         print("copy is not byte-identical", file=sys.stderr)
         return 1
-    print("OK %s %dx%d %d bytes sha256=%s"
-          % (CONCEPT, w, h, size, sha256_of(dest)))
+    print("OK %s | %d stories | %dx%d %d bytes sha256=%s"
+          % (CONCEPT, STORIES, w, h, size, sha256_of(dest)))
     return 0
 
 

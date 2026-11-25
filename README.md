@@ -1,4 +1,4 @@
-# THE TUESDAY SIGNAL — NI24 Wave 1 · Akun 18 (@latuconshinaprilly3480)
+# THE DAYBREAK SIGNAL — NI24 Wave 2 · Akun 18 (@latuconshinaprilly3480)
 
 [![make.fun bounty](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124)
 ![rank](https://make.fun/badge/news-image-20261124/latuconshinaprilly/makefun-news-image-20261124/rank.svg)
@@ -9,29 +9,24 @@ Bounty: [news-image-20261124 on make.fun](https://make.fun/bounty/news-image-202
 Bounty: `news-image-20261124` (make.fun) · Akun 18 · Edisi Selasa 24 November 2026
 
 ## Konsep
-Halaman depan koran satu hari penuh — "THE TUESDAY SIGNAL" — palet biru
-tengah malam / perak di atas putih, Layout C: 3 kartu lead + rel vertikal
-"THE DAY IN NUMBERS" di sisi kanan lead + 12 kartu mini + peta dunia
-dotted berpin bernomor + ALSO ON 3 kolom + DATE CHECK + footer sumber.
+Halaman depan koran fajar satu hari penuh — "THE DAYBREAK SIGNAL" —
+Layout B: lead hero Sparta II + Kyiv + kartu Huang/Nvidia, strip angka
+hari ini di bawah masthead, bar 9 region, rel "THE DAY IN UTC", peta dunia
+dotted berpin bernomor, kotak DATE CHECK yang memisahkan berita lama,
+dan daftar ringkas "ALSO ON TUESDAY" yang terbaca penuh sampai
+cerita ke-34 (KOSPI, Reuters) tanpa luapan.
 
-Lead trio: #12 Liverpool 4–0 · #11 Wellington draw · #13 Trump rate cap.
-Total 44 cerita (15 kartu + 29 brief), 7 region. Semua angka dari tabel
-induk ni24-pool.md + refresh 07:00 (Merkury 7 sea drones launched,
-COP31 NO DEAL pertama sejak 2000, emas $3.588, Bitcoin $61.284,
-GTA VI $3,8 miliar, Nvidia +31%, House 258–173).
+Lead trio: #1 Sparta II dihantam drone · #2 Kyiv strikes 15 killed ·
+#3 Huang kembali sebagai CEO Nvidia (+31%).
+Total 34 cerita (13 kartu adegan penuh + 21 brief ringkas), 9 region
+termasuk WORLD. Semua angka dari pool sah hari itu (Merkury karam oleh
+7 sea drone, COP31 no deal, emas $3.588, Bitcoin $61.284, GTA VI $3,8bn
+hari pertama, House 258–173, Liverpool 4–0).
 
 ## Entry
-- Dimensi: **1024 × 1024 px** (lolos gate server, terverifikasi IHDR)
-- Ukuran: **204.819 byte**
-- sha256: **1e50a68dc53fbef31debde9f4dabc288cf36862a2f06d83c2588f693b96971eb**
-- `main.py` — carrier stdlib-only: verifikasi signature PNG + dimensi IHDR,
-  MENOLAK gambar yang melanggar gate 1024×1024 / 1 MiB, salin byte-for-byte
-  ke `MAKEFUN_OUTPUT_DIR` (fallback /output), verifikasi salinan identik.
-- `compose.py` — engine gambar yang ditulis baru di sesi ini khusus akun
-  ini (PIL lokal saja; tidak ikut jalan di grader).
-
-## Duel varian internal
-- Varian A (pemenang): lead Liverpool → Wellington → Trump, strip angka
-  urutan cerita, mini urutan pool. Koheren, lead terkuat dulu.
-- Varian B (kalah): lead Wellington dulu, strip angka terbalik, mini
-  urutan terbalik. Ditolak: urutan terbalik membingungkan.
+- Dimensi: **1024 × 1024 px** (terverifikasi IHDR)
+- Ukuran: **258.740 byte**
+- sha256: **fbb87ef155abc1808c7a83188d6ae30fb6d3a8eeca0f8823dfa7a0893f5c265e**
+- `main.py` — carrier stdlib-only: verifikasi signature PNG + dimensi
+  IHDR, menolak gambar yang melanggar gate 1024×1024 / 1 MiB, lalu
+  menuliskan byte `entry.png` persis sebagai keluaran.
